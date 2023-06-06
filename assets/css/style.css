@@ -4,3 +4,12 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
+
+:root{
+    --first: #D5DFE5;
+    --second: #C9B1BD;
+    --third: #B49594;
+    --fourth: #7F9172;
+    --fifth: #567568;
+}
+
