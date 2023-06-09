@@ -19,6 +19,7 @@ This Project is a personal portfolio website and is not open for contributions a
 <img width="378" alt="Screen Shot 2023-05-30 at 11 36 33 PM" src="https://github.com/angiecruz02/homework-challenge2/blob/main/assets/Porftolio-screenshot.png">
 
 ## Link to deployed application
+https://angiecruz02.github.io/homework-challenge2/
 
 ## Credits
 This project was built by Dora Angelica Cruz Perez as part of UTSA coding bootcamp.
