@@ -1,3 +1,145 @@
 * {
+    margin: 10px;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
+}
+
+/* brand color palette */
+:root {
+    --first: #8c2f39;
+    --second: #C9B1BD;
+    --third: #b23a48;
+    --fourth: #fcb9b2;
+    --fifth: #fff;
+}
+
+body {
+    background-color: var(--first);
+    color: var(--fifth);
+}
+
+.header-details {
+    text-align: center;
+    font-size: 25px;
+}
+
+.user-image {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    list-style-type: none;
+    color: var(--fourth);
+}
+
+#nav-links a {
+    color: var(--fourth)
+}
+
+#nav-links a:visited {
+    color: var(--fourth);
+}
+
+#nav-links a:hover {
+    color: var(--third);
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.about-content {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.work-projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#work h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#work img {
+    width: 300px;
+    height: auto;
+}
+
+#work img:hover {
+    width: 500px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+}
+
+#work a {
+    color: var(--fourth)
+}
+
+#work a:visited {
+    color: var(--fourth);
+}
+
+#work a:hover {
+    color: var(--third);
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    color: var(--fourth);
+}
+
+#contact a:visited {
+    color: var(--fourth)
+}
+
+#contact a:hover {
+    color: var(--third)
+}
+
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 390px) {
+    .work-projects {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 391px) {
+    .work-projects {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-content,
+    .about-content p {
+        margin: unset;
+    }
+
+    .about-content p {
+        text-align: left;
+        justify-content: center;
+        padding: unset;
+    }
 }
