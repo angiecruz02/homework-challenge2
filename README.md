@@ -16,6 +16,7 @@ You can navigate through website. Clicking on the portfolio images will open a w
 This Project is a personal portfolio website and is not open for contributions at this time.
 
 ## Screenshot
+<img width="378" alt="Screen Shot 2023-05-30 at 11 36 33 PM" src="https://github.com/angiecruz02/homework-challenge2/blob/main/assets/Porftolio-screenshot.png">
 
 ## Link to deployed application
 
